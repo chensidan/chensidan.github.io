@@ -1,20 +1,20 @@
-<?xml-stylesheet type="text/xsl" href="chensidan.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://chensidan.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>chensidan.github.io/categories/</loc>
+    <loc>https://chensidan.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>chensidan.github.io/</loc>
+    <loc>https://chensidan.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>chensidan.github.io/tags/</loc>
+    <loc>https://chensidan.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

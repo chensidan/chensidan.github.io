@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://chensidan.github.io/sitemap.xml
+Sitemap: chensidan.github.io/sitemap.xml

@@ -2,28 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sidan</title>
-    <link>https://chensidan.github.io/</link>
+    <link>chensidan.github.io/</link>
     <description>Recent content on Sidan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-en</language>
-    <lastBuildDate>Sat, 21 May 2022 15:52:04 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sidan&#39;s first blog</title>
-      <link>https://chensidan.github.io/post/first/</link>
-      <pubDate>Sat, 21 May 2022 15:52:04 +0800</pubDate>
-      
-      <guid>https://chensidan.github.io/post/first/</guid>
-      <description>Begin here </description>
-    </item>
-    
-    <item>
-      <title>About Sidan</title>
-      <link>https://chensidan.github.io/about/</link>
-      <pubDate>Sat, 21 May 2022 15:49:57 +0800</pubDate>
-      
-      <guid>https://chensidan.github.io/about/</guid>
-      <description>This is Sidan </description>
-    </item>
-    
+    <language>zh-en</language><atom:link href="chensidan.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

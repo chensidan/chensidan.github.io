@@ -148,9 +148,15 @@
   <ul>
     <li>
       <ul>
-        <li>
+        <li><a href="#使用-hugogithub-搭建博客">使用 Hugo&amp;&amp;Github 搭建博客</a>
           <ul>
-            <li><a href="#使用-hugogithub-搭建博客">使用 Hugo&amp;&amp;Github 搭建博客</a></li>
+            <li><a href="#1--安装hugo与git"><strong>1.  安装hugo与git</strong></a></li>
+            <li><a href="#2--建立hugo站点"><strong>2.  建立hugo站点</strong></a></li>
+            <li><a href="#3--创建文章"><strong>3.  创建文章</strong></a></li>
+            <li><a href="#4--安装主题"><strong>4.  安装主题</strong></a></li>
+            <li><a href="#5--启动hugo"><strong>5.  启动hugo</strong></a></li>
+            <li><a href="#6---github部署"><strong>6.   Github部署</strong></a></li>
+            <li><a href="#7--日常使用"><strong>7.  日常使用</strong></a></li>
           </ul>
         </li>
       </ul>
@@ -165,14 +171,14 @@
     <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/v4-shims.js"></script> 
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-<h3 id="使用-hugogithub-搭建博客">使用 Hugo&amp;&amp;Github 搭建博客</h3>
+<h2 id="使用-hugogithub-搭建博客">使用 Hugo&amp;&amp;Github 搭建博客</h2>
 <p><strong>参考 <a href="https://www.gohugo.org/">hugo中文文档</a>、<a href="https://cuglilong.github.io/posts/2018-05-09-building-blog/">Longli博客</a>、<a href="https://hepuyao.github.io/post/%E4%BD%BF%E7%94%A8hugo+github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">olOWOlo博客</a>、<a href="https://sspai.com/post/45217">Font Awesome使用教程</a>、<a href="https://gohugo.io/">hugo官方网址</a></strong></p>
-<p><strong>1.  安装hugo与git</strong></p>
+<h3 id="1--安装hugo与git"><strong>1.  安装hugo与git</strong></h3>
 <blockquote>
 <p><code>sudo apt-get install hugo</code>   <br>
 <code>sudo apt-get install git</code></p>
 </blockquote>
-<p><strong>2.  建立hugo站点</strong></p>
+<h3 id="2--建立hugo站点"><strong>2.  建立hugo站点</strong></h3>
 <blockquote>
 <p><code>hugo new site mysite</code> <em><font size=2>#mysite可更换，例如 sidanblog</font></em></p>
 <blockquote>
@@ -185,7 +191,7 @@
 <i class="fa-regular fa-file"></i>  config.toml <em><font size=2> #配置网页文件</font></em> </font></p>
 </blockquote>
 </blockquote>
-<p><strong>3.  创建文章</strong></p>
+<h3 id="3--创建文章"><strong>3.  创建文章</strong></h3>
 <blockquote>
 <p><code>cd mysite</code><br>
 <code>hugo new about.md</code> <em><font size=2> #自动生成content/about.md</font></em><br>
@@ -199,25 +205,25 @@ draft: true <em><font size=2> #draft=true,表示这是一篇草稿,默认不渲�
 -&ndash;</font></p>
 </blockquote>
 </blockquote>
-<p><strong>4.  安装主题</strong></p>
+<h3 id="4--安装主题"><strong>4.  安装主题</strong></h3>
 <blockquote>
 <p>进入hugo的Themes，进行挑选，参考主题Demo进行配置<br>
 <code>git clone https://github.com/olOwOlo/hugo-theme-even themes/even</code></p>
 </blockquote>
-<p><strong>5.  启动hugo</strong></p>
+<h3 id="5--启动hugo"><strong>5.  启动hugo</strong></h3>
 <blockquote>
 <p><code>hugo server --buildDrafts --theme=even</code></p>
 </blockquote>
 <p>浏览器输入http://localhost:1313，预览博客</p>
-<p><strong>6.   Github部署</strong>
-申请github账号，新建仓库Repository，名称为用户名(须小写).github.io</p>
+<h3 id="6---github部署"><strong>6.   Github部署</strong></h3>
+<p>申请github账号，新建仓库Repository，名称为用户名(须小写).github.io</p>
 <blockquote>
 <p><code>baseURL = &quot;chensidan.github.io&quot;</code><em><font size=2> #修改config.toml</font></em>
 <code>hugo --theme=even --buildDrafts --baseUrl=&quot;https://chensidan.github.io/&quot;</code><em><font size=2> #站点根目录下运行</font></em></p>
 </blockquote>
 <p>所有静态页面会生成到 public/，并且 pubilc/里所有文件 push 到刚创建的 Repository 的 master 分支</p>
 <blockquote>
-<p><code>cd public</code><br>
+<p><code>cd public</code>
 <code>git init</code><br>
 <code>git remote add origin git@github.com:chensidan/chensidan.github.io.git</code><br>
 <code>git add -A</code><br>
@@ -225,7 +231,7 @@ draft: true <em><font size=2> #draft=true,表示这是一篇草稿,默认不渲�
 <code>git push -u origin master</code></p>
 </blockquote>
 <p>浏览器中输入你的URL，例如:chensidan.github.io,能打开博客即说明部署成功</p>
-<p><strong>7.  日常使用</strong></p>
+<h3 id="7--日常使用"><strong>7.  日常使用</strong></h3>
 <p>新建markdown博文，后缀名为.md的文件</p>
 <p><code>hugo new content/post/new.md</code></p>
 <p>生成Bash脚本，可打包提交</p>

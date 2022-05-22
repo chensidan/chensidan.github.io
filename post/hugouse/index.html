@@ -214,7 +214,7 @@ draft: true <em><font size=2> #draft=true,表示这是一篇草稿,默认不渲�
 <h2 id="6---github部署"><strong>6.   Github部署</strong></h2>
 <p>申请github账号，新建仓库Repository，名称为用户名(须小写).github.io</p>
 <blockquote>
-<p><code>baseURL = &quot;chensidan.github.io&quot;</code><em><font size=2> #修改config.toml</font></em> <br>
+<p><code>baseURL = &quot;chensidan.github.io&quot;</code><em><font size=2> #修改config.toml</font></em>     <br>
 <code>hugo --theme=even --buildDrafts --baseUrl=&quot;https://chensidan.github.io/&quot;</code><em><font size=2> #站点根目录下运行</font></em></p>
 </blockquote>
 <p>所有静态页面会生成到 public/，并且 pubilc/里所有文件 push 到刚创建的 Repository 的 master 分支</p>
@@ -232,11 +232,11 @@ draft: true <em><font size=2> #draft=true,表示这是一篇草稿,默认不渲�
 <p><code>hugo new content/post/new.md</code></p>
 <p>生成Bash脚本，可打包提交</p>
 <blockquote>
-<p>#!/bin/bash
+<p>#!/bin/bash<br>
 #<em><font size=2> 错误时，终止脚本</em></font><br>
 <code>set -e</code><br>
 #<em><font size=2> 生成静态页面</em></font><br>
-<code>hugo --theme=even --buildDrafts --baseUrl=&quot;https://chensidan.github.io/&quot;</code><br>
+<code>hugo --theme=even --buildDrafts --baseUrl=&quot;https://chensidan.github.io/&quot;</code> <br>
 #<em><font size=2> 发布</em></font><br>
 <code>cd public</code><br>
 <code>git add .</code><br>

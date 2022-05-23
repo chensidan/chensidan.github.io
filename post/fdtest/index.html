@@ -293,7 +293,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><font size=2>gmt生成模型的深度变化示意图</font></p>
-<p><img src="https://gitee.com/chensidana/picture-hugo/raw/master/newmodel.png" alt="newmodel"></p>
+<p><img src="https://raw.githubusercontent.com/chensidan/Picture/main/newmodel.png" alt="newmodel"></p>
 <h3 id="2-合成模型">2. 合成模型</h3>
 <p><font size=2>根据 wangxin 改的 get2Dmodel2.f90，来对mtz界面进行变化。该脚本只使用于 IASPV91，记得修改路径。详细参考 codes/get2Dmodel2.f90 &amp; changed.f90 </font></p>
 <div class="highlight"><div class="chroma">
@@ -597,8 +597,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><font size=2> 将生成四张图，分别是背景模型、相对模型、绝对模型于特定x点位的1D模型，以下为绝对模型与1D模型示例：</font>
-<img src="../../static/picture/fdtest/New-model.png" alt="绝对模型">
-<img src="../../static/picture/fdtest/1D-model.png" alt="1D模型"></p>
+<img src="https://raw.githubusercontent.com/chensidan/Picture/main/New-model.png" alt="绝对模型">
+<img src="https://raw.githubusercontent.com/chensidan/Picture/main/1D-model.png" alt="1D模型"></p>
 <p><i class="fa-regular fa-star"></i><font size=2> 在设置模型时，有一个波会干扰到目标震相，猜测是由于上边界反射的某种波，因此设置两个预留边界&gt;300km，来削弱它在目标范围内的影响</font></p>
 <h3 id="4-修改参数利用服务器计算">4. 修改参数，利用服务器计算</h3>
 <p><font size=2> 合并 in_par.UW 与 run 脚本，循环多个炮点与检波器，实现滚采 </font></p>
@@ -986,8 +986,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><font size=2>将对应的台站与源的x轴位置写入stlo与evlo中，方便后续处理。同时在原模型基础上绘制台站位置与自激自收结果，观察Pv410P、Pv660P信号变化。如图：</font>
-<img src="../../static/picture/fdtest/self-exci-retr.png" alt="自激自收"></p>
-<p><img src="../../static/picture/fdtest/model-source.png" alt="台站布设"></p>
+<img src="https://raw.githubusercontent.com/chensidan/Picture/main/self-exci-retr.png" alt="自激自收"></p>
+<p><img src="https://raw.githubusercontent.com/chensidan/Picture/main/model-source.png" alt="台站布设"></p>
 <h4 id="52-数据-cut--moveout--normalize">5.2 数据 cut &amp;&amp; moveout &amp;&amp; normalize</h4>
 <p><font size=2> 我们只处理震中距两百公里以内的台站-震源对数据（详见5.4 理论模型测试），将数据以80-125s、125-175s与175-240s为分段进行动校正，再补零合并，最后归一化。</font></p>
 <blockquote>
@@ -1397,9 +1397,9 @@ $$</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><font size=2> 如下图,倾斜界面确实存在由于叠加信号会导致反射信号削弱的现象： </font>
-<img src="../../static/picture/fdtest/stackline.png" alt="linetest"></p>
+<img src="https://raw.githubusercontent.com/chensidan/Picture/main/stackline.png" alt="linetest"></p>
 <p><font size=2> 理论ak135模型测试，震源位于模型中间，布设了一系列线性台阵：</font></p>
-<p><img src="../../static/picture/fdtest/waves_bp0.1_0.2.png" alt="ak135syn"></p>
+<p><img src="https://raw.githubusercontent.com/chensidan/Picture/main/waves_bp0.1_0.2.png" alt="ak135syn"></p>
 
     </div>
 

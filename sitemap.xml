@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://chensidan.github.io/tags/FD-GMT6-moveout/</loc>
+    <loc>https://chensidan.github.io/tags/FD/</loc>
     <lastmod>2022-05-23T09:36:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -17,6 +17,34 @@
   
   <url>
     <loc>https://chensidan.github.io/post/fdtest/</loc>
+    <lastmod>2022-05-23T09:36:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://chensidan.github.io/tags/GMT6/</loc>
+    <lastmod>2022-05-23T09:36:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://chensidan.github.io/categories/GMT6/</loc>
+    <lastmod>2022-05-23T09:36:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://chensidan.github.io/tags/moveout/</loc>
+    <lastmod>2022-05-23T09:36:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://chensidan.github.io/categories/moveout/</loc>
     <lastmod>2022-05-23T09:36:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://chensidan.github.io/categories/%E6%AD%A3%E6%BC%94-GMT6-moveout/</loc>
+    <loc>https://chensidan.github.io/categories/%E6%AD%A3%E6%BC%94/</loc>
     <lastmod>2022-05-23T09:36:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

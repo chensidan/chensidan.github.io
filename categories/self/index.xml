@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self on Sidan</title>
+    <link>https://chensidan.github.io/categories/self/</link>
+    <description>Recent content in self on Sidan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 23 Jul 2022 19:15:20 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/categories/self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dairy</title>
+      <link>https://chensidan.github.io/post/dairy/</link>
+      <pubDate>Sat, 23 Jul 2022 19:15:20 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/post/dairy/</guid>
+      <description>Dairy 1th 2022年7月23日记 花信之年，仓促而又荒诞 十四五岁的小孩，纯真烂漫；二十出头的少年，热烈张扬。朝着三十岁奔去的我们，赶不上岁月蹉跎，抓</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,25 @@
     <description>Recent content on Sidan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 May 2022 09:36:33 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 09:42:31 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python学习日记-Day1</title>
+      <link>https://chensidan.github.io/post/python1/</link>
+      <pubDate>Sun, 29 May 2022 09:42:31 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/post/python1/</guid>
+      <description>Python常用库 常见的python库,方便我更快地熟悉python 库名 说明 使用 os 常用路径操作、进程管理、环境参数等 import os numpy 支持大量的维度数组</description>
+    </item>
+    
+    <item>
+      <title>AC程序测试 - Loic Viens</title>
+      <link>https://chensidan.github.io/post/AC_LoicV/</link>
+      <pubDate>Sat, 28 May 2022 17:03:03 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/post/AC_LoicV/</guid>
+      <description>AC程序测试（LoicViens，2020） 该程序的输入为已预处理的地震数据，保证为1day长度，去过仪器响应与预滤波 1. code阅读 主要核心</description>
+    </item>
+    
     <item>
       <title>FD正演测试-MTZ</title>
       <link>https://chensidan.github.io/post/fdtest/</link>
@@ -31,7 +49,7 @@
       <pubDate>Sat, 21 May 2022 15:52:04 +0800</pubDate>
       
       <guid>https://chensidan.github.io/post/first/</guid>
-      <description>从这里开始 这是sidan的第一篇blog，在lilong的帮助下，终于搭建了起来。耗时好多个小时，将Sidan从一无所知的菜鸟，终于培养成了</description>
+      <description>从这里开始 A new life for Sidan. To be myself, whatever to go, whenever to die. Maybe I don&amp;rsquo;t know what I&amp;rsquo;m craving, I will follow my heart, never regret.</description>
     </item>
     
     <item>

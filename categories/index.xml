@@ -6,7 +6,34 @@
     <description>Recent content in Categories on Sidan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 May 2022 09:36:33 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 09:42:31 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://chensidan.github.io/categories/Python/</link>
+      <pubDate>Sun, 29 May 2022 09:42:31 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/categories/Python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习日记</title>
+      <link>https://chensidan.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</link>
+      <pubDate>Sun, 29 May 2022 09:42:31 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACC</title>
+      <link>https://chensidan.github.io/categories/ACC/</link>
+      <pubDate>Sat, 28 May 2022 17:03:03 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/categories/ACC/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>GMT6</title>
       <link>https://chensidan.github.io/categories/GMT6/</link>

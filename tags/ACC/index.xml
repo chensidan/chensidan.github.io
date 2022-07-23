@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACC on Sidan</title>
+    <link>https://chensidan.github.io/tags/ACC/</link>
+    <description>Recent content in ACC on Sidan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 28 May 2022 17:03:03 +0800</lastBuildDate><atom:link href="https://chensidan.github.io/tags/ACC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AC程序测试 - Loic Viens</title>
+      <link>https://chensidan.github.io/post/AC_LoicV/</link>
+      <pubDate>Sat, 28 May 2022 17:03:03 +0800</pubDate>
+      
+      <guid>https://chensidan.github.io/post/AC_LoicV/</guid>
+      <description>AC程序测试（LoicViens，2020） 该程序的输入为已预处理的地震数据，保证为1day长度，去过仪器响应与预滤波 1. code阅读 主要核心</description>
+    </item>
+    
+  </channel>
+</rss>
